@@ -26,14 +26,15 @@ header#toper > div#logo {
     font-size: 4em;
     font-style: normal;
     color: whitesmoke;
-    margin-left: 100px ;
+    margin-left: 125px ;
     width: 180px;
 }
 header#toper > img {
     position: absolute;
     width: 105px;
     left: 4px;
-    top: 6px;
+    top: -10px;
+    margin-left: 10px;
     
 }
 nav {
