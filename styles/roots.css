@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root { /* Root to <body> */
+    --body-color: #A6261B;
+}
+
+:root { /* Root to <header> */
+    --header-color: #0000008e;
+}
+
+
+:root { /* Root to <footer> */
+    --footer-color: #ffffff04;
+}
