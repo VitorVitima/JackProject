@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url("roots.css");
+@import url("header.css");
 
 @font-face {
     font-family: 'logo' ;
@@ -13,52 +14,7 @@ body {
     margin: 0px;
 }
 
-header#toper {
-    display: block;
-    position: relative;
-    background-color: var(--header-color);
-    height: 80px;
-    margin-bottom: 20px;
-    
-}
-header#toper > div#logo {
-    font-family: 'logo';
-    font-size: 4em;
-    font-style: normal;
-    color: whitesmoke;
-    margin-left: 125px;
-    width: 180px;
-}
-header#toper > img {
-    position: absolute;
-    width: 105px;
-    left: 4px;
-    top: -10px;
-    margin-left: 10px;
-    
-}
-nav {
-    position: absolute;
-    display: inline-block;
-    width: 374px;
-    margin-left: 36%;
-    margin-top: 40px;
 
-}
-
-nav > div > a {
-    background-color: #FFEAEA;
-    color: black;
-
-    text-decoration: none;
-    display: inline-block;
-
-    border: 3px solid black;
-    padding: 5px;
-
-    position: relative;
-
-}
 
 div#center {
     text-align: center;
