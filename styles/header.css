@@ -8,19 +8,54 @@ header {
     background-color: var(--header-color);
 }
 
+/* parte da logo e nome do site */
 
-
+header #logo {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
 header img {
     width: 100px;
 }
 header div#nameYoruni {
-    color: whitesmoke;
-    
+    color: whitesmoke; 
 }
 
 
+/* navegação e humburger */
 
 header > nav {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    min-height: 100px;
+    left: calc(100vw - 200px);
+    top: 0px;
+    
+}
+nav div#menu {
+    margin: 0px 30px;
+    cursor: pointer;
+}
+nav div.hum {
+    background-color: whitesmoke;
+    margin: 5px 0px;
+    width: 30px;
+    height: 2px;
+}
+nav div#links {
+    display: none;
+    flex-direction: column;
+}
+nav > div#links a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+nav > div#links a:hover {
+    color: white;
+    text-decoration: underline;
 }
